@@ -29,7 +29,7 @@ mvn test
 
 In this mini project you should work as a small team of 3-4 persons. I expect everyone to commit code in the project.
 
-1. One person in your team should fork the repository [devops21_java_junit](https://gitlab.com/robert-alfwar/devops21_java_junit)
+1. One person in your team should fork the repository [devops22-java_junit](https://github.com/fictive-reality/devops22-java_junit)
 2. Give the other team members access to your forked repository
 3. Create a NAMES.md file with all team members username, first and last name.
 4. In your root repository workspace run:
@@ -46,7 +46,7 @@ In this mini project you should work as a small team of 3-4 persons. I expect ev
     # You can move all files out of the created folder if you want them in the root of your project
     ```
 
-5. Read further instructions in your forked repository devops21_java_junit [README](https://gitlab.com/robert-alfwar/devops21_java_junit/-/blob/main/README.md)
+5. Read further instructions in your forked repository devops22-java_junit [README](https://github.com/fictive-reality/devops22-java_junit/-/blob/main/README.md)
 
 ### Extra Extensions [Optional]
 
@@ -61,5 +61,5 @@ If you have completed the mini project you can try out some extras.
 This is a group exercise so make sure that all members of the team has committed something to the code.
 
 * [ ] Write a NAMES.md file that contains the full name of all team members
-* [ ] Create a merge request from the fork against the upstream project (the one you forked from devops21_java_junit)
+* [ ] Create a pull request from the fork against the upstream project (the one you forked from devops22-java_junit)
 * [ ] Provide a screenshot of a successful test run

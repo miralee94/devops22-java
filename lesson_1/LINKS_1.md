@@ -8,16 +8,21 @@
 
 There is a `JRE` (Java Runtime Environment) and `JDK` (Java Development Kit), since we are developing java applications we need the `JDK`.
 
+LTS means Long Term Support. The latest JDK is Java SE 19, but we can stick with the 17 version.
+
 ```bash
 # On mac
 brew update
 brew install openjdk@17
 # Read the message carefully, you will need to add a symlink and export to PATH
 ```
+Or go to: https://www.oracle.com/java/technologies/downloads/#jdk17-mac
 
 - Windows - Download Oracle Java [JDK17](https://www.oracle.com/java/technologies/downloads/#JDK17)
 - Windows - Oracle [Java Installation Guide](https://docs.oracle.com/en/java/javase/17/install/index.html)
-- All platforms - OpenJDK [Download](https://jdk.java.net/17/)
+
+
+There may be other versions of Java already installed. Double check your version by typing `java --version` into a terminal. 
 
 ## Java 17
 
@@ -46,19 +51,14 @@ I recommend that you read the Oracle tutorial, and that you get familiar with th
 
 ## Git
 
+- Install git [download](https://git-scm.com/downloads)
 - Book about git [Git Pro](https://git-scm.com/book/en/v2)
-- GitLab [cheat sheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
+- Git [cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
-## GitLab
+## GitHub
 
-- Getting started with [merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/getting_started.html)
-- How to [create a merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-
-### Markdown
-
-- Cheat sheet for GitLab [cheat sheet](https://gitlab.com/francoisjacquet/rosariosis/-/wikis/Markdown-Cheatsheet)
-- GitLab official documentation for markdown [markdown specification](https://docs.gitlab.com/ee/user/markdown.html)
-- Code block in GitLab [List of supported languages](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers)
+- Git repositories located at [GitHub](https://github.com/)
+- Tutorial on [forks](https://www.earthdatascience.org/workshops/intro-version-control-git/about-forks/) and on contributing to other repositories with [pull requests](https://www.earthdatascience.org/workshops/intro-version-control-git/pull-request/)
 
 ## Visual Studio Code
 

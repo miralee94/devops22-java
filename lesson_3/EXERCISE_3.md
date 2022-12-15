@@ -6,7 +6,7 @@ The main goal of this exercise is to learn basic java syntax. We will also learn
 
 ### `Exercise` Java Basic syntax
 
-1. In repository devops21_java [lesson_3](https://gitlab.com/robert-alfwar/devops21_java/-/tree/main/lesson_3)
+1. In repository devops22-java [lesson_3](https://github.com/fictive-reality/devops22-java/-/tree/main/lesson_3)
 
 2. Write a class that uses a `switch`.
 
@@ -20,7 +20,7 @@ The main goal of this exercise is to learn basic java syntax. We will also learn
 
 ## Hand in instructions
 
-In the repository [devops21_java](https://gitlab.com/robert-alfwar/devops21_java)
+In the repository [devops22-java](https://github.com/fictive-reality/devops22-java)
 
 1. Hand in files:
 
@@ -32,4 +32,4 @@ In the repository [devops21_java](https://gitlab.com/robert-alfwar/devops21_java
 
 - Create a branch with name `YOURUSERNAME_lesson_3`
 
-Hand in your exercise in a `Merge Request` that contains screenshot[s] and file[s]. You can also use the feature `attach a file` for screenshots in your `Merge Request`
+Hand in your exercise in a `Pull Request` that contains screenshot[s] and file[s]. You can also use the feature `attach a file` for screenshots in your `Pull Request`

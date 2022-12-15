@@ -6,7 +6,7 @@ The main goal of this exercise is to learn basic java class syntax.
 
 ### `Exercise` Java Basic Class Syntax
 
-1. In repository devops21_java
+1. In repository devops22-java
 2. Create a sub folder so you can have classes in separate packages.
 
     ```text
@@ -56,11 +56,11 @@ The main goal of this exercise is to learn basic java class syntax.
 
 - Create a branch with name `YOURUSERNAME_lesson_4`
 
-Hand in your exercise in a `Merge Request` that contains screenshot[s] and file[s]. You can also use the feature `attach a file` for screenshots in your `Merge Request`
+Hand in your exercise in a `Pull Request` that contains screenshot[s] and file[s]. You can also use the feature `attach a file` for screenshots in your `Pull Request`
 
 ### What to hand in
 
-In the repository [devops21_java](https://gitlab.com/robert-alfwar/devops21_java)
+In the repository [devops22-java](https://github.com/fictive-reality/devops22-java)
 
 Hand in files:
 

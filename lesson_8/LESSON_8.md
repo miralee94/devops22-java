@@ -6,11 +6,11 @@ Today we will build & run java programs.
 
 ### Jetty
 
-We will first build a jetty jar <https://gitlab.com/robert-alfwar/devops21_java_jetty>
+We will first build a jetty jar <https://github.com/fictive-reality/devops22-java_jetty>
 
 ### Jetty Webapp
 
-Follow the instruction to setup a Jetty webapp <https://gitlab.com/robert-alfwar/devops21_java_jetty_webapp>
+Follow the instruction to setup a Jetty webapp <https://github.com/fictive-reality/devops22-java_jetty_webapp>
 
 ### Tomcat
 

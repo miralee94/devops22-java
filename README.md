@@ -1,12 +1,14 @@
-# devops21_java
+# devops22-java
+
+Lesson material originally by Robert Westin, amended by Martin Fröjd.
 
 ## General
 
-You can view markdown files in GitLab i.e this `README.md` will be visible on the page [devops21_java](https://gitlab.com/robert-alfwar/devops21_java).
+You can view markdown files in GitHub i.e this `README.md` will be visible on the page [devops22-java](https://github.com/fictive-reality/devops22-java).
 
 You can preview markdown files in vscode with an extension i.e [markdown all in one](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one). To open the preview mode, right click on the file and select `Open preview`.
 
-If you have any improvements, guides or just better wording, feel free to create a `merge request` with the improvement to this repository.
+If you have any improvements, guides or just better wording, feel free to create a `Pull request` with the improvement to this repository.
 
 ## Lesson
 
@@ -31,4 +33,4 @@ The `EXERCISE.md` file contains what you need to do and practice to succeed this
 
 ### Exercise - Hand in
 
-The exercise `hand in` is done with a "Merge Request". If your merge request is closed by the teacher, you have successfully completed the exercise. This follows the UNIX Philosophy [no news is good news](https://en.wikipedia.org/wiki/Talk%3AUnix_philosophy#No_news_is_good_news).
+The exercise `hand in` is done with a "Pull Request". If your pull request is closed by the teacher, you have successfully completed the exercise. This follows the UNIX Philosophy [no news is good news](https://en.wikipedia.org/wiki/Talk%3AUnix_philosophy#No_news_is_good_news).

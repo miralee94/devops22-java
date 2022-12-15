@@ -2,7 +2,7 @@
 
 ## Instructions
 
-The main goal of this exercise is to learn how to hand in a exercise. We will verify that Git, Visual Studio Code, GitLab and Java works properly on your environment. You will also learn how to use markdown, a lightweight markup language commonly used in i.e GitHub, GitLab both for docs and to comment i.e `merge requests`.
+The main goal of this exercise is to learn how to hand in a exercise. We will verify that Git, Visual Studio Code, GitLab and Java works properly on your environment. You will also learn how to use markdown, a lightweight markup language commonly used in i.e GitHub, GitLab both for docs and to comment i.e `pull requests`.
 
 ### `Exercise` Java in Visual Studio Code
 
@@ -43,7 +43,7 @@ javac --version
 
 ## Hand in instructions
 
-In the repository [devops21_java](https://gitlab.com/robert-alfwar/devops21_java)
+In the repository [devops22-java](https://github.com/fictive-reality/devops22-java)
 
 1. Provide a screenshot showing Git and Java version 11 or 17.
 2. Provide a screenshot successfully running "hello world"
@@ -53,4 +53,4 @@ In the repository [devops21_java](https://gitlab.com/robert-alfwar/devops21_java
 
 - Create a branch with name `YOURUSERNAME_lesson_1`
 
-Hand in your exercise in a `Merge Request` that contains screenshot[s] and file[s]. You can also use the feature `attach a file` for screenshots in your `Merge Request`
+Hand in your exercise in a `Pull Request` that contains screenshot[s] and file[s]. You can also use the feature `attach a file` for screenshots in your `Pull Request`

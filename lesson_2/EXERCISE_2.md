@@ -8,7 +8,7 @@ The main goal of this exercise is to learn basic java types. You should get fami
 
 In this exercise you can get help by Java tutorial [Primitive Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html) you can also use the [Java Language Specification](https://docs.oracle.com/javase/specs/jls/se17/html/jls-4.html) and [Java API specification](https://docs.oracle.com/en/java/javase/17/docs/api/index.html)
 
-1. In repository devops21_java [lesson_2](https://gitlab.com/robert-alfwar/devops21_java/-/tree/main/lesson_2/exercise)
+1. In repository devops22-java [lesson_2](https://github.com/fictive-reality/devops22-java/-/tree/main/lesson_2/exercise)
 
 2. Fill in the missing code in the exercise files and be sure that the file ran without errors.
 
@@ -23,7 +23,7 @@ In this exercise you can get help by Java tutorial [Primitive Data Types](https:
 
 ## Hand in instructions
 
-In the repository [devops21_java](https://gitlab.com/robert-alfwar/devops21_java)
+In the repository [devops22-java](https://github.com/fictive-reality/devops22-java)
 
 1. Hand in the file and screenshots with a successful run of:
 
@@ -36,4 +36,4 @@ In the repository [devops21_java](https://gitlab.com/robert-alfwar/devops21_java
 
 - Create a branch with name `YOURUSERNAME_lesson_2`
 
-Hand in your exercise in a `Merge Request` that contains screenshot[s] and file[s]. You can also use the feature `attach a file` for screenshots in your `Merge Request`
+Hand in your exercise in a `Pull Request` that contains screenshot[s] and file[s]. You can also use the feature `attach a file` for screenshots in your `Pull Request`
