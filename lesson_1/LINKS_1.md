@@ -66,3 +66,7 @@ I recommend that you read the Oracle tutorial, and that you get familiar with th
 
 - [Visual Studio Code extension for markdown](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 - Visual Studio Code [java tutorial](https://code.visualstudio.com/docs/java/java-tutorial)
+
+## Difference Java and Python
+
+- [Both uses Bytecode but they are still different](https://stackoverflow.com/questions/441824/java-virtual-machine-vs-python-interpreter-parlance)

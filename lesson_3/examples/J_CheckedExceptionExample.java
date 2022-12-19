@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class J_CheckedExceptionExample {
 
-    // Group Exercise: Write method that requires throws
+    // Group Exercise: Re-write to method(s) that uses throws keyword
     public static void main(String[] args) {
         File file = new File("data.txt");
         try (Scanner scanner = new Scanner(file)) {

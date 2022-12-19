@@ -6,12 +6,12 @@ class PrimitiveVsReference {
         Integer y = 10;
 
         String i = y.toString();
-        // This will not work since it's a primitive type
-        // String j = x.toString();
-
-        // System.out.println(x);
-        System.out.println(y);
         System.out.println(i);
+
+        // This will not work since it's a primitive type
+        // int x = 20;
+        // String j = x.toString();
+        // System.out.println(j);
 
     }
 }
