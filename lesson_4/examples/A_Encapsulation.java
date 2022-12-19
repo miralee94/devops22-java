@@ -6,8 +6,9 @@ public class A_Encapsulation {
     private int internalValue = 5;
     
     public int doSomething(int y){
-        System.out.println("A_Encapsulation - doSomething");
-        return internalValue * y; 
+        int x = internalValue * y;
+        System.out.println("A_Encapsulation - doSomething " + x);
+        return x; 
     }
 
 

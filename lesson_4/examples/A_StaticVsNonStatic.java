@@ -32,7 +32,7 @@ public class A_StaticVsNonStatic {
 
 
         // Instance variables can't be called from a static method
-        // count()
+        // count();
 
         // We first need to create a object
         A_StaticVsNonStatic staticVsNonStatic = new A_StaticVsNonStatic();

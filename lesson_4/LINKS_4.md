@@ -1,5 +1,9 @@
 # Links
 
+## UML
+- [How to make a UML class diagram](https://www.lucidchart.com/pages/uml-class-diagram)
+- [Object oriented design](http://users.csc.calpoly.edu/~jdalbey/308/Resources/ooDesignHowTo.html)
+
 ## Java 17
 
 - The Java Language Specification [Java SE 17](https://docs.oracle.com/javase/specs/jls/se17/html/index.html)
