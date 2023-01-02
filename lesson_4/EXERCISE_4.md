@@ -16,7 +16,7 @@ The main goal of this exercise is to learn Java class syntax and object oriented
 -- Or come up with your own idea of a real world problem to design
 
 For your design problem, do:
-1. Write down at least 10 nouns or verbs that are important to represent the problem in software
+1. Write down at least 10 nouns (things) and verbs (actions or behaviours) that are important to represent the problem in software
 2. Define at least 3 different classes and 1 interface from these words
 3. Draw on paper ![a diagram like this](https://www.tutorialspoint.com/uml/images/uml_class_diagram.jpg) that shows how the classes interact (inheritance, methods and fields)
 4. Take a photo of your final design (or digitalize it some other way) and share with all team members
@@ -24,9 +24,7 @@ For your design problem, do:
 
 ### Individual `Exercise`
 
-Take the design from the group and write it as a set of minimal Java code files. Ensure you have somewhere used the keywords `extends`, `implements`, `@Override` for inheritance, and `public`, `private` for encapsulation. The code should compile (no warnings in editor) but no logic is needed - the methods don't need to *do* anything, no objects need to be instantiated.
-
-Hand in the Java files.
+Take the design from the group and write it as a set of minimal Java code files. Ensure you have somewhere used the keywords `extends`, `implements`, `@Override` for inheritance, and `public`, `private` for encapsulation. The code should compile (no warnings in editor) but no logic is needed - the methods don't need to *do* anything, no objects need to be instantiated and you can just return default values where necessary.
 
 ## Hand in instructions
 
@@ -34,12 +32,4 @@ Hand in the Java files.
 
 - Create a branch with name `YOURUSERNAME_lesson_4`
 
-Hand in your exercise in a `Pull Request` that contains screenshot[s] and file[s]. You can also use the feature `attach a file` for screenshots in your `Pull Request`
-
-### What to hand in
-
-In the repository [devops22-java](https://github.com/fictive-reality/devops22-java)
-
-Hand in files:
-
-- All classes created in different packages
+Hand in your exercise in a `Pull Request` that contains diagram image[s] and file[s]. You can also use the feature `attach a file` for images in your `Pull Request`
