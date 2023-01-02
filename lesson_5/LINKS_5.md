@@ -18,7 +18,7 @@ Working with forks requires that add upstream as a remote and you fetch updates 
 - Oracle tutorial about [Setting up tables](https://docs.oracle.com/javase/tutorial/jdbc/basics/tables.html)
 - Oracle tutorial about OPTIONAL [prepared statements](https://docs.oracle.com/javase/tutorial/jdbc/basics/prepared.html)
 
-MySQL sql syntax
+### MySQL sql syntax
 
 - MySQL [create-table](https://dev.mysql.com/doc/refman/8.0/en/create-table.html)
 - MySQL [data-types](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
