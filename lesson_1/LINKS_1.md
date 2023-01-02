@@ -33,6 +33,7 @@ I recommend that you read the Oracle tutorial, and that you get familiar with th
 - Java API Specification [java.base](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/package-summary.html)
 - Java style guide [google java guide](https://google.github.io/styleguide/javaguide.html)
 - Java cross platform support example [Oracle JDK 17 Certified System Configurations](https://www.oracle.com/java/technologies/javase/products-doc-jdk17certconfig.html)
+- [What's the difference between all these JDK names?](https://stackoverflow.com/questions/52431764/difference-between-openjdk-and-adoptium-adoptopenjdk)
 
 ## General
 
