@@ -13,7 +13,7 @@ In this mini project you should continue with the same team as in lesson 4.
 2. Create a NAMES.md file with all team members GitHub username, and their first and last name.
 3. Create a DESIGN.md file. Write or copy some bullet points from Lesson 4 that describes the desired features, including nouns and verbs used. Also add the diagram as an image or similar. You may change or improve on the design but don't spend more than 1 hour on this.
 4. Setup the project using Maven. See detailed instructions below.
-5. Now you can split up and start writing classes, dummy methods and tests. You can pick the best code that you wrote individually in Lesson 4, or you could start over.
+5. Now you can split up and start writing classes, dummy methods and tests. You can pick the best code that you wrote individually in Lesson 4, or you could start fresh.
 
 ### Requirements
 
@@ -22,14 +22,16 @@ In this mini project you should continue with the same team as in lesson 4.
 * At least a total of 20 test cases and none of them failing
 * I expect everyone to commit code in this project and I may check commit history, so make sure you either commit individually OR that you write in the commit message if someone else was helping to write that commit.
 
-The goal of this exercises is NOT to write a complete and functioning app, it's to practice testing! So it's expected that the submission still contains dummy methods or doesn't fulfill all of the original design. The important part is that the tests work, covers the expected behaviour from the design and that they are varied and not too basic.
+The focus of this exercise is NOT to write a complete and functioning app, it's to practice testing! So start with writing classes and good tests, then as time allows follow the Test-Driven Design loop to step-by-step make the app more functional. It is fully expected that the submitted code still contains dummy methods or is missing functionality from the original design. The important part is that the tests work, covers the expected behaviour from the design and that they are varied and useful.
+
+If the classes from your app idea doesn't seem to have enough things to test, just come up with additional design requirements (features) that would imply more testable methods.
 
 ### Good tests
 
 There's lots of info in LINKS and online about writing good tests, but here are a few tips:
 
 - Always start with a good design on what SHOULD and SHOULDN'T happen, and write the test based on that
-- If you are testing inherited classes, you don't need to write the same tests for both the parent and the child if the method hasn't changed!
+- If you are testing inherited classes, you don't always need to write the same tests for both the parent and the child class if the method hasn't changed!
 - Make sure to not only test that the method works as intended, but also how it should handle bad arguments, incorrect data or that it's in the wrong state (not initialized, not saved, etc).
 - Try to vary the tests and think creatively what could go wrong in real life.
 - Write more tests on methods that you expect to be more complicated, and fewer or no tests on very simple methods, such as getters.
@@ -37,11 +39,11 @@ There's lots of info in LINKS and online about writing good tests, but here are 
 
 ### Extra Extensions [Optional]
 
-If you have time left you can try out some extras.
+If you have time left you can try out some extras, see LINKS.md for more info.
 
-* Add a coverage plugin to maven, check the links file for JaCoCo. Properly configured it will add a check that your project has good enough coverage, it will also generate a site report in html where you can browse your coverage. See LINKS.md
-* Try to write some mocks with Mockito. See LINKS.md
-* Add hamcrest matchers
+* Use "hamcrest matchers" for more readable and flexible tests.
+* Add a coverage plugin to maven, check the links file for JaCoCo. Properly configured it will add a check that your project has good enough coverage, it will also generate a site report in html where you can browse your coverage.
+* Try to write some mocks with Mockito.
 * Complete the code in the body of dummy methods to make the app more feature complete
 
 ### Setting up the project with Maven

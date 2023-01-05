@@ -1,10 +1,10 @@
-package se.nackademin;
+package examples.mockito;
 
-public class Traditional {
+public class NumberFactory {
     private int number;
     private Worker worker;
 
-    Traditional(){
+    NumberFactory(){
         number = 10;
     }
 

@@ -1,4 +1,4 @@
-package se.nackademin;
+package examples.mockito;
 
 public interface Worker {
     

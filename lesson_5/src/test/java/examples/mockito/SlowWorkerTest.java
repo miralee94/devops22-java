@@ -1,15 +1,15 @@
-package se.nackademin;
+package examples.mockito;
 
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-public class SlowTest {
+public class SlowWorkerTest {
 
     @Test
     public void shouldSumTenAndWorkResult() throws Exception {
-        Slow spy = spy(Slow.class);
-        // Comment out the following line and run mvn test
+        SlowWorker spy = spy(SlowWorker.class);
+        
         doReturn(1).when(spy).work();
         doReturn(1).when(spy).conditionalReturn(1);
        
@@ -21,8 +21,9 @@ public class SlowTest {
 
     @Test
     public void shouldReturnZeroOnConditionalAboveTen() throws Exception {
-        Slow spy = spy(Slow.class);
-        // This removes the 9s sleep
+        SlowWorker spy = spy(SlowWorker.class);
+        // SlowWorker.work() is takes 9 seconds to simulate a side effect.
+        // Below will stub over that method so it goes quickly and always returns 1
         doReturn(1).when(spy).work();
 
         assertEquals(0, spy.moreWork(10));
@@ -32,8 +33,9 @@ public class SlowTest {
 
     @Test
     public void shouldReturnSumWithZeroOnWorkFailure() {
-        Slow spy = spy(Slow.class);
-        // Comment out the following line and run mvn test
+        SlowWorker spy = spy(SlowWorker.class);
+        // SlowWorker.work() is takes 9 seconds to simulate a side effect.
+        // Below will stub over that method so it goes quickly and always returns 1
         doReturn(0).when(spy).work();
        
         assertEquals(11, spy.moreWork(1));
@@ -44,7 +46,7 @@ public class SlowTest {
     @Test
     public void shouldThrowIfConditionalValueIsTen(){
         Exception ex = assertThrows(Exception.class, ()->{
-            Slow slow = new Slow();
+            SlowWorker slow = new SlowWorker();
             slow.conditionalReturn(10);
         });
         assertEquals("Value greater or equal to 10 is not allowed", ex.getMessage());

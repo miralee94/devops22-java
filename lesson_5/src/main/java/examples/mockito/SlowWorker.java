@@ -1,6 +1,6 @@
-package se.nackademin;
+package examples.mockito;
 
-public class Slow implements Worker {
+public class SlowWorker implements Worker {
 
     public int work(){
         // To test this we need to use PowerMock

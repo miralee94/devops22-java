@@ -16,6 +16,7 @@
 
 - Coverage maven plugin [JaCoCo](https://www.eclemma.org/jacoco/trunk/doc/maven.html)
 - JaCoCo config example [pom.xml](https://www.jacoco.org/jacoco/trunk/doc/examples/build/pom.xml)
+- [JaCoCo guide with VS Code Coverage Gutters](https://medium.com/@karlrombauts/setting-up-unit-testing-for-java-in-vs-code-with-maven-3dc75579122f)
 
 ## Visual Studio Code
 
@@ -32,3 +33,7 @@ Optional matchers to help you test i.e in collections.
 - Hamcrest matchers library [github](https://github.com/hamcrest/JavaHamcrest)
 - Hamcrest java tutorial [Java Hamcrest tutorial](https://hamcrest.org/JavaHamcrest/tutorial)
 - Hamcrest Matchers API Reference Documentation [JavaDoc](http://hamcrest.org/JavaHamcrest/javadoc/2.2/)
+
+## Testing resources
+
+- [Big list of naught strings](https://github.com/minimaxir/big-list-of-naughty-strings)

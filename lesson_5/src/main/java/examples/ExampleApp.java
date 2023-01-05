@@ -1,6 +1,6 @@
-package se.nackademin;
+package examples;
 
-public class App {
+public class ExampleApp {
 
     int value = 10;
 

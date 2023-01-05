@@ -1,4 +1,4 @@
-package se.nackademin;
+package examples;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
@@ -8,27 +8,32 @@ import java.util.LinkedList;
 import static java.util.Arrays.asList;
 
 import org.junit.jupiter.api.Test;
+
 import static org.hamcrest.Matchers.*;
 
 // https://junit.org/junit5/docs/current/api/org.junit.jupiter.api/org/junit/jupiter/api/Assertions.html
 
-public class AppTest {
+public class ExampleTests {
 
     @Test
     public void shouldGetValueHamcrest() {
-        App app = new App();
+        ExampleApp app = new ExampleApp();
         assertThat(app.getValue(), is(equalTo(10)));
     }
 
     @Test
     public void shouldGetValuePlainJunit() {
-        App app = new App();
+        ExampleApp app = new ExampleApp();
         assertEquals(10, app.getValue());
     }
 
     @Test
     public void shouldAssertsAll() {
-        assertAll("Should test multiple conditions", () -> assertTrue(true), () -> assertFalse(false));
+        assertAll(
+            "Should test multiple conditions",
+            () -> assertTrue(true), 
+            () -> assertFalse(false)
+        );
     }
 
     @Test
@@ -74,7 +79,7 @@ public class AppTest {
 
     @Test
     public void shouldFail() {
-        App app = new App();
+        ExampleApp app = new ExampleApp();
         try {
             app.failingMethod();
             fail("this should not happen");

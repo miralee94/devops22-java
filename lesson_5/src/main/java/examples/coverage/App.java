@@ -1,4 +1,4 @@
-package se.nackademin;
+package examples.coverage;
 
 public class App {
 

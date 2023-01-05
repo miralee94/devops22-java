@@ -1,4 +1,4 @@
-package se.nackademin;
+package examples.coverage;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
