@@ -10,7 +10,7 @@ public class Enclosure {
         return this.isClean;
 
     }
-    public float gettemoerature() {
+    public float getTemperature() {
         return this.temperature;
     }
 
