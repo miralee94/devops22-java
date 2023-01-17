@@ -1,15 +1,17 @@
-package lesson_5.examples.collections;
+package se.nackademin.collections;
 
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 
 public class HashMapExample {
 
     // https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html
     public static void main(String[] args) {
-        HashMap<String, String> map = new HashMap<>();
+        Map<String, String> map = new HashMap<>();
         map.put("hello", "world");
+        map.put("hello2", "world");
         System.out.println("HaspMap get hello: " + map.get("hello"));
 
         System.out.println("HashMap containsKey hello: " + map.containsKey("hello"));
