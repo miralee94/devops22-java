@@ -1,4 +1,4 @@
-package lesson_9.examples.files;
+package examples.files;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -10,9 +10,11 @@ import java.util.stream.Stream;
 public class FilesReadWriteExample {
 
     public static void main(String[] args) throws IOException {
+        Files.createDirectories(Paths.get("out/"));
 
-        Path path = Paths.get("lesson_9/examples/hello.txt");
-        System.out.println("---- READ examples/hello.txt -----");
+        Path path = Paths.get("out/hello.txt");
+        
+        System.out.println("---- READ out/hello.txt -----");
 
         // This will fail if the file doesn't exist
         try (Stream<String> stream = Files.lines(path)) {
@@ -22,8 +24,8 @@ public class FilesReadWriteExample {
         }
 
         // https://docs.oracle.com/javase/8/docs/api/java/nio/file/StandardOpenOption.html
-        System.out.println("---- WRITE examples/hello2.txt -----");
-        Path path2 = Paths.get("lesson_9/examples/hello2.txt");
+        System.out.println("---- WRITEout/ hello2.txt -----");
+        Path path2 = Paths.get("out/hello2.txt");
 
         // You can check if a file exist
         if (path2.toFile().exists()){

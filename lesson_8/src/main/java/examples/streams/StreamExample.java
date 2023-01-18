@@ -1,4 +1,4 @@
-package lesson_9.examples.streams;
+package examples.streams;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-# Lesson 8
+# Lesson 9
 
 ## Information
 
@@ -48,7 +48,7 @@ You could install Tomcat on your target system, but in this example we use docke
     ```
 
 8. Check the logs and test to open the <http://localhost:8888/manager/html> it should say 403 access denied
-9. Now you need to add a context file that allow us to log into the manger.
+9. Now you need to add a context file that allow us to log into the manager.
 
     ```sh
     # copy from the examples folder in lesson_8 to the container folder

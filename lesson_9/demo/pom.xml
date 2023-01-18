@@ -10,10 +10,10 @@
 		<!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>lesson_8</artifactId>
+	<artifactId>lesson_9</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>lesson_8</name>
+	<name>lesson_9</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

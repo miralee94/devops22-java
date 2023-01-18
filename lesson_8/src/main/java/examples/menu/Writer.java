@@ -1,4 +1,4 @@
-package lesson_9.examples.menu;
+package examples.menu;
 
 import java.io.File;
 import java.io.FileInputStream;

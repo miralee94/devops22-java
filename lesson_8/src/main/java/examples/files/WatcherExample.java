@@ -1,4 +1,4 @@
-package lesson_9.examples.files;
+package examples.files;
 
 import java.io.IOException;
 import java.nio.file.FileSystems;
@@ -13,7 +13,7 @@ import java.nio.file.WatchEvent.Kind;
 public class WatcherExample {
     public static void main(String[] args) throws IOException, InterruptedException {
         WatchService watcher = FileSystems.getDefault().newWatchService();
-        Path path = Paths.get("lesson_9/examples");
+        Path path = Paths.get("out/");
         WatchKey key = path.register(watcher, StandardWatchEventKinds.ENTRY_DELETE,
                 StandardWatchEventKinds.ENTRY_CREATE);
 

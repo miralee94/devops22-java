@@ -1,4 +1,4 @@
-package lesson_9.examples.streams;
+package examples.streams;
 
 public class Book implements Comparable<Book> {
 
@@ -38,6 +38,6 @@ public class Book implements Comparable<Book> {
 
     @Override
     public int hashCode() {
-        return String.hash(this.isbn);
+        return this.isbn.hashCode();
     }
 }

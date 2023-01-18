@@ -1,4 +1,4 @@
-package lesson_9.examples.menu;
+package examples.menu;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class App {
 
-    static File file = Paths.get("lesson_9/examples/menu/hello.txt").toFile();
+    static File file = Paths.get("out/MyClass.dat").toFile();
 
     public static void main(String[] args) throws Exception {
         try (Scanner sc = new Scanner(System.in).useDelimiter("\r?\n|\r")) {
