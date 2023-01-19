@@ -70,7 +70,7 @@ This is an extra exercise, it's not mandatory. Follow the guide [accessing data 
 
 ### General hand in instructions
 
-- Create a branch with name `YOURUSERNAME_lesson_5`
+- Create a branch with name `YOURUSERNAME_lesson_7`
 
 Hand in your exercise in a `Pull Request` that contains screenshot[s] and file[s]. You can also use the feature `attach a file` for screenshots in your `Pull Request`
 

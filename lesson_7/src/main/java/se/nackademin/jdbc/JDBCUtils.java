@@ -2,10 +2,11 @@ package se.nackademin.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Properties;
-import java.sql.ResultSet;
+
 
 class JDBCUtils {
     String hostname;
@@ -32,7 +33,7 @@ class JDBCUtils {
         try (Statement stmt = conn.createStatement()) {
             stmt.executeUpdate(createString);
         } catch (SQLException e) {
-            System.out.println(e);
+            e.printStackTrace();
         }
     }
 
