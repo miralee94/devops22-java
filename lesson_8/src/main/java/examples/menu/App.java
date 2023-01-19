@@ -7,7 +7,8 @@ import java.util.Scanner;
 
 public class App {
 
-    static File file = Paths.get("out/MyClass.dat").toFile();
+    static File file = Paths.get("out/MyHotel.dat").toFile();
+    static MyHotel mainHotel;
 
     public static void main(String[] args) throws Exception {
         try (Scanner sc = new Scanner(System.in).useDelimiter("\r?\n|\r")) {
@@ -17,6 +18,7 @@ public class App {
     }
 
     static void menu(Scanner sc) throws IOException, ClassNotFoundException {
+
         while (true) {
             System.out.print("Enter a int 1-4 to choice or 'exit' to quit: ");
             if (sc.hasNextInt()) {
@@ -34,15 +36,20 @@ public class App {
         switch (i) {
             case 1:
                 System.out.println("Write class to file");
-                Writer.writeToFile(file, new MyClass("hello", 2));
+                Writer.writeToFile(file, App.mainHotel);
                 break;
             case 2:
                 System.out.println("Read class from file");
-                MyClass myClassFromFile = (MyClass) Writer.readFromFile(file);
-                System.out.println(myClassFromFile.name);
+                App.mainHotel = (MyHotel) Writer.readFromFile(file);
+                System.out.println(App.mainHotel);
                 break;
             case 3:
-                System.out.println("do 3");
+                System.out.println("import initial data");
+                App.mainHotel = new MyHotel();
+                App.mainHotel.importCustomer("adam");
+                App.mainHotel.importCustomer("eva");
+                App.mainHotel.importRoom(333);
+                App.mainHotel.importRoom(444);
                 break;
             default:
                 System.out.println("Unknown selection");

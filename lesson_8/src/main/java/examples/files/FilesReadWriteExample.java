@@ -1,5 +1,9 @@
 package examples.files;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -33,6 +37,22 @@ public class FilesReadWriteExample {
         } else {
             Files.writeString(path2, "hello world", StandardOpenOption.CREATE_NEW);
         }
+    }
+
+    private void oldFashionedWrite(String fileName) throws IOException {
+        String str = "Hello Old";
+        BufferedWriter writer = new BufferedWriter(new FileWriter(fileName));
+        writer.write(str);
+        
+        writer.close();
+
+    }
+
+    private Stream<String> oldFashionedRead(String fileName) throws IOException {
+        BufferedReader reader = new BufferedReader(new FileReader(fileName));
+        Stream<String> out = reader.lines();
+        reader.close();
+        return out;
     }
 
 }
